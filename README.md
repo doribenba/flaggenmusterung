@@ -4,6 +4,10 @@ Dieses Projekt analysiert und vergleicht Flaggenbilder anhand von Farben, geomet
 
 ---
 
+<img width="1552" height="234" alt="Screenshot 2026-11-22 at 14 56 17" src="https://github.com/user-attachments/assets/a6697e64-d397-4797-b1f8-cfb42061a991" />
+
+---
+
 ## 1. Voraussetzungen
 
 - **Python 3.9+**
@@ -48,6 +52,11 @@ python3 preprocess.py
 - Legt für jede Flagge eine `.txt`-Datei mit diesen Attributen in `Flaggen100/` an.
 
 ---
+Beispiel - Israel.txt:
+
+<img width="1664" height="832" alt="Screenshot 2026-11-22 at 14 56 57" src="https://github.com/user-attachments/assets/aef4376f-1c0e-45d2-8df4-8316f14a1d53" />
+
+---
 
 ### Schritt 2: Ähnlichste Flaggen für ein bestimmtes Land ermitteln
 
@@ -66,6 +75,11 @@ Geben Sie an der Eingabeaufforderung das gesuchte Land ein (ohne Dateiendung), b
 **Ausgabe:** Die 5 ähnlichsten Flaggen mit genauer Aufschlüsselung der Übereinstimmung (Farbe, Layout, Symbole, Gesamtübereinstimmung).
 
 ---
+Beispiel - Ecuador:
+
+<img width="1654" height="356" alt="Screenshot 2026-11-22 at 14 58 05" src="https://github.com/user-attachments/assets/6217c59b-3bc1-4d41-b034-593b28ec422d" />
+
+---
 
 ### Schritt 3: Global ähnlichste Paare und Gruppen ermitteln
 
@@ -81,6 +95,10 @@ python3 flaggenAll.py
 
 ---
 
+<img width="1986" height="784" alt="Screenshot 2026-11-22 at 14 59 07" src="https://github.com/user-attachments/assets/266a5d39-c82a-4e98-99db-5f49d3954649" />
+
+---
+
 ## 4. Dateistruktur
 
 ```
@@ -92,6 +110,5 @@ python3 flaggenAll.py
 ├── preprocess.py      # Vorverarbeitung und Merkmalsextraktion
 ├── requirements.txt   # Python-Abhängigkeiten (numpy, Pillow)
 ├── submission.pdf     # Ausführliche Dokumentation und Lösung
-├── README.txt         # Textbasierte Kurzanleitung
 └── README.md          # Markdown-Dokumentation
 ```
